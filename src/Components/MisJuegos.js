@@ -60,7 +60,8 @@ export const MisJuegos = () => {
                     &nbsp;<input type="text" onBlur={(e)=> editar(e, item.id)}
                                             onKeyPress={(e)=> {
                                                 if(e.key === "Enter"){
-                                                    editar(e, item.id)}
+                                                    editar(e, item.id)
+                                                }
                                                 }} />
 
                 </li>
